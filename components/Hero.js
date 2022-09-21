@@ -10,9 +10,9 @@ export default function Hero() {
       
       {/* Text container */}
       <header className=" absolut md:flex-row mt-10 mb-10 md:pt-40 mx-10 md:my-20 lg:my-0 max-w-lg">
-          <h1 className="text-5xl md:text-7xl  font-bold text-gray-700 dark:text-gray-200 my-0 md:my-2 text-left">
+          <h1 className="text-5xl md:text-7xl  font-bold text-gray-700 dark:text-gray-200 my-0 md:my-2 text-center md:text-left">
           Willkommen </h1> 
-          <h1 className="text-1xl md:text-3xl font-light text-gray-700 dark:text-gray-200 my-2 text-center md:text-left mt-10">
+          <h1 className="text-1xl md:text-3xl font-light text-gray-700 dark:text-gray-200 my-2 text-center md:text-left md:text-left mt-10">
                 Mein Name ist Raphael Zähringer.
               </h1><h1 className="text-1xl md:text-3x1 font-light text-gray-700 dark:text-gray-200 my-2 text-center md:text-left">
                 Derzeit bin ich Master-Student an der Julius-Maximilians Universität Würzburg im Bereich Human Computer Interaction.

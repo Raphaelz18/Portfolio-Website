@@ -42,9 +42,9 @@ export default function FavouriteProjects() {
                     <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
             </div>
 
-            <a href="/projects" className="relative experience-card p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-40 transition ease-in-out text-yellow-50 font-medium text-xl bg-yellow-500 rounded-md px-2 hover:bg-yellow-600">
+            <a href="/projects" className="relative experience-card p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 mx-4 z-10 md:mx-40 transition ease-in-out text-yellow-50 font-medium text-xl bg-yellow-500 rounded-md md:px-2 hover:bg-yellow-600">
             <h1 className="text-yellow-50 font-medium text-xl text-center">
-          weiter Projekte
+          weitere Projekte
         </h1>
             </a>
 
