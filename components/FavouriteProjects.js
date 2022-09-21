@@ -3,14 +3,10 @@ import userData from "@constants/data";
 
 export default function FavouriteProjects() {
   return (
-    <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
-      <div class="flex flex-col space-y-10">
-        <div></div>
-        <div></div>
-      </div>
-      <div className="max-w-6xl mx-auto">
+    <div className="bg-[#F1F1F1] md:-mt-40 dark:bg-gray-900">
+      <div className="max-w-6xl mx-auto md:-mt-40">
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
-          <h1 className="text-8xl md:text-8x1 font-bold text-gray-700 dark:text-gray-200 my-2 text-center">
+          <h1 className="text-5xl md:text-8x1 font-bold text-gray-700 dark:text-gray-200 my-2 text-center">
           Projekte
           </h1>
         </header>
