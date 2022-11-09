@@ -3,10 +3,10 @@ import userData from "@constants/data";
 
 export default function FavouriteProjects() {
   return (
-    <div className="bg-[#F1F1F1] md:-mt-40 dark:bg-gray-900">
-      <div className="max-w-6xl mx-auto md:-mt-40">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
-          <h1 className="text-5xl md:text-8x1 font-bold text-gray-700 dark:text-gray-200 my-2 text-center">
+    <div className="bg-[#F1F1F1] md:mt-40 dark:bg-gray-900">
+      <div className="max-w-6xl mx-auto mt-20 md:-mt-60">
+        <header className="flex flex-col md:flex-row justify-between items-center md:my-20 lg:mt-20">
+          <h1 className="mt-10 -mb-20 relative text-5xl md:text-20xl font-bold text-gray-700 dark:text-gray-200 text-center md:mt-20">
           Projekte
           </h1>
         </header>
@@ -17,38 +17,40 @@ export default function FavouriteProjects() {
             <div></div>
             <div></div>
           </div>
-          <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
-            {/* Projekt card */}
-            {userData.favprojects.map((proj, idx) => (
-              <>
-                <ProjektCard
-                  year={proj.year}
-                  title={proj.title}
-                  link={proj.link}
-                  imgUrl={proj.imgUrl}
-                />
-                {idx === userData.favprojects.length - 1 ? null : (
-                  <div className="divider-container flex flex-col items-center -mt-2">
-                    <div className="w-4 h-4 bg-yellow-500 rounded-full relative z-10">
+
+          <div class="snap-y">
+            <div class="snap-center grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
+              {/* Projekt card */}
+              {userData.favprojects.map((proj, idx) => (
+                <>
+                  <ProjektCard
+                    year={proj.year}
+                    title={proj.title}
+                    link={proj.link}
+                    imgUrl={proj.imgUrl}
+                  />
+                  {idx === userData.favprojects.length - 1 ? null : (
+                    <div className="divider-container flex flex-col items-center -mt-2">
+                      <div className="w-4 h-4 bg-yellow-500 rounded-full relative z-10">
+                      </div>
+                      <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
                     </div>
-                    <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
-                  </div>
-                )}
-              </>
-            ))}
-            <div className="divider-container flex flex-col items-center -mt-2">
-                    <div className="w-4 h-4 bg-yellow-500 rounded-full relative z-10">
-                    </div>
-                    <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
+                  )}
+                </>
+              ))}
+              <div className="divider-container flex flex-col items-center -mt-2">
+                      <div className="w-4 h-4 bg-yellow-500 rounded-full relative z-10">
+                      </div>
+                      <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
+              </div>
+
+              <a href="/projects" class="snap-center relative experience-card p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 mx-4 z-10 md:mx-40 transition ease-in-out text-yellow-50 font-medium text-xl bg-yellow-500 rounded-md md:px-2 hover:bg-yellow-600">
+                <h1 className="text-yellow-50 font-medium text-xl text-center">
+                    weitere Projekte
+                </h1>
+              </a>
+
             </div>
-
-            <a href="/projects" className="relative experience-card p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 mx-4 z-10 md:mx-40 transition ease-in-out text-yellow-50 font-medium text-xl bg-yellow-500 rounded-md md:px-2 hover:bg-yellow-600">
-            <h1 className="text-yellow-50 font-medium text-xl text-center">
-          weitere Projekte
-        </h1>
-            </a>
-
-
           </div>
         </div>
       </div>
