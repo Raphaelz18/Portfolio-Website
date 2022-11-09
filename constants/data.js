@@ -20,6 +20,12 @@ const userData = {
       imgUrl: "/placeholdertech.png",
     },
     {
+      year: "2023",
+      title: "UKW",
+      link: "https://www.figma.de",
+      imgUrl: "/feed.mp3",
+    },
+    {
       year: "2020",
       title: "CD und Webauftritt für das Bacchusensemble",
       link: "https://www.bacchus-ensemble.de",
