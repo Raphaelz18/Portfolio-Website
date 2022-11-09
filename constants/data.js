@@ -17,13 +17,7 @@ const userData = {
       year: "2022",
       title: "Credit Card App - Visual Interface Design",
       link: "https://www.figma.de",
-      imgUrl: "/placeholdertech.png",
-    },
-    {
-      year: "2023",
-      title: "UKW",
-      link: "https://www.figma.de",
-      imgUrl: "/feed.mp3",
+      imgUrl: "demo-images/contact.png",
     },
     {
       year: "2020",
