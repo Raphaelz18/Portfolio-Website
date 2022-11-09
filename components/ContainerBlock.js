@@ -43,7 +43,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         )}
       </Head>
       <main className="dark:bg-gray-800 w-full">
-        <Navbar />
+        <Navbar/>
         <div>{children}</div>
         <Footer />
       </main>
